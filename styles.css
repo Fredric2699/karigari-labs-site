@@ -5,9 +5,9 @@ body {
   background-color: #f9f9f9;
 }
 
-/* Hero Splash with Gradient */
+/* Hero Splash with Teal Gradient */
 .hero {
-  background: linear-gradient(135deg, #4b0082, #ff69b4, #ff4500, #ffa500);
+  background: linear-gradient(135deg, #002f3d, #005f6b, #008c8c);
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -15,6 +15,15 @@ body {
   align-items: center;
   position: relative;
   color: white;
+}
+
+/* Crown Icon */
+.crown-icon {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 40px;
+  height: auto;
 }
 
 .overlay {
