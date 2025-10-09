@@ -7,7 +7,7 @@ body {
 
 /* Hero Splash with Teal Gradient */
 .hero {
-  background: linear-gradient(135deg, #002f3d, #005f6b, #008c8c);
+  background: linear-gradient(135deg, #000000, #002f3d, #004c5c, #006b7a);
   height: 100vh;
   display: flex;
   flex-direction: column;
