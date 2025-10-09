@@ -1,26 +1,114 @@
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f9f9f9;
+/* Fullscreen Hero Background */
+.hero {
+  background-image: url('images/your-background.jpg'); /* Replace with your actual image */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
 
-.hero {
+.overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 2rem;
+  border-radius: 8px;
+  max-width: 800px;
   text-align: center;
-  padding: 50px;
-  background-color: #222;
-  color: white;
+}
+
+/* CTA Buttons */
+.cta-buttons {
+  margin-top: 1rem;
 }
 
 .cta-button {
-  padding: 10px 20px;
-  margin: 10px;
+  padding: 12px 24px;
+  margin: 8px;
+  font-weight: bold;
+  border-radius: 5px;
   background-color: #0077cc;
   color: white;
   text-decoration: none;
-  border-radius: 5px;
+  display: inline-block;
 }
 
 .cta-button.secondary {
   background-color: #555;
+}
+
+/* Section Headings */
+section h2 {
+  text-align: center;
+  margin-top: 3rem;
+  font-size: 2rem;
+  color: #333;
+}
+
+/* Service Grid */
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  padding: 2rem;
+}
+
+.card {
+  background-color: white;
+  border: 1px solid #ddd;
+  padding: 1rem;
+  border-radius: 6px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Extension Grid */
+.extension-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+  padding: 2rem;
+}
+
+.module-card {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.module-card button {
+  margin-top: 1rem;
+  padding: 10px 20px;
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* How It Works */
+.how-it-works ol {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding-left: 1.5rem;
+  font-size: 1.1rem;
+}
+
+/* Footer */
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+  margin-top: 3rem;
+}
+
+footer a {
+  color: #00aaff;
+  text-decoration: none;
 }
